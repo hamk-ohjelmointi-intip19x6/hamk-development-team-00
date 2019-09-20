@@ -11,5 +11,10 @@ namespace Testiprojekti
         {
             return luku1 + luku2;
         }
+
+        public int Erotus(int luku1, int luku2)
+        {
+            return luku1 - luku2;
+        }
     }
 }
