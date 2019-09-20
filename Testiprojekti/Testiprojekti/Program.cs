@@ -17,6 +17,10 @@ namespace Testiprojekti
             Console.WriteLine("Tulosta lukujen 5 ja 4 erotus.");
             var erotus = laskin.Erotus(5, 4);
             Console.WriteLine(erotus);
+
+            Console.WriteLine("Tulosta lukujen 5 ja 4 tulo.");
+            var tulo = laskin.Tulo(5, 4);
+            Console.WriteLine(tulo);
         }
     }
 }
